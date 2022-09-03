@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Stress Detection</title>
+</head>
+<body>
+    <div class="mainSection">
+        <br>
+        <div>
+            <img src="images/banner.png" alt="Diseases prediction system" class="banner">  
+        </div>
+
+        <div class="heading">Fill the following details to know your stress level</div>
+
+        <div class="tableSection">
+            <table>
+                <tr>
+                    <td><div class="tableName">Snoring Rate</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="sr"></div></td>
+                    <td><div class="tableName">Respiration Rate</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="rr"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="tableName">Body Temperature</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="bt"></div></td>
+                    <td><div class="tableName">Limb Movement</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="lm"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="tableName">Body Oxygen</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="bo"></div></td>
+                    <td><div class="tableName">Eye Movement</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="em"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="tableName">Sleeping Hours</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="sh"></div></td>
+                    <td><div class="tableName">Heart Rate</div></td>
+                    <td><div class="TableValue"><input type="text" class="inputSection" id="hr"></div></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="notification" id="notification">
+
+        </div>
+
+        <div class="resultSection">
+            <div class="submitButtonSection">
+                <button class="submitButton" onclick="getPredicion()">Predict Stress Level</button>
+            </div>
+            <div class="resultBox" id="result">
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
