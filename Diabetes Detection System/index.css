@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainSection {
+    height: 100vh;
+    width: 60%;
+    margin-left:20% ;
+    margin-right:20% ;
+    background-color: rgb(178, 197, 207);
+    padding: 0ch;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.banner{
+    align-items: center;
+    border: 5px solid black;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 80%;
+    height: 150px;
+}
+
+.body{
+    height: 400px;
+    background-color: blue;
+    margin-left: 10%;
+    margin-right: 9%;
+    margin-top: 50px;
+}
