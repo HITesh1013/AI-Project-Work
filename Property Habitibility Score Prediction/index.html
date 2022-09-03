@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Habitability Score</title>
+</head>
+<body>
+    <div class="mainSection">
+        <div class="header">
+            <image src="images/header.gif" alt="logo" class="logo">
+            <image src="images/banner1.png" alt="header" class="banner">
+        </div>
+        <div class="resultBox" id="result"></div>
+        <div class="notification" id="notification"></div>
+        <div class="tableInput">
+            <table>
+                <tr>
+                    <td><div class="label">Property Area in Sq.ft</div></td>
+                    <td><input type="text" class="inputSection" id="propertyArea"></td>
+                    <td><div class="label">Neighborhood Review</div></td>
+                    <td><input type="text" class="inputSection" id="neighborhoodReview"></td>
+                </tr>
+                <tr>
+                    <td><div class="label">Number of Doors</div></td>
+                    <td><input type="text" class="inputSection" id="numberOfDoors"></td>
+                    <td><div class="label">Number of Windows</div></td>
+                    <td><input type="text" class="inputSection" id="numberOfWindows"></td>
+                </tr>
+                <tr>
+                    <td><div class="label">Traffic Density Score</div></td>
+                    <td><input type="text" class="inputSection" id="trafficDensityScore"></td>
+                    <td><div class="label">Air Quality Index</div></td>
+                    <td><input type="text" class="inputSection" id="airQualityIndex"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tableSection">
+            <table>
+                <tr>
+                    <td class="tableElement">
+                        <select id="typeOfproperty" class="dropdown">
+                            <option selected disabled hidden value="null">Type of Propperty</option>
+                            <option value="Apartment">Apartment</option>
+                            <option value="Bungalow">Bungalow</option>
+                            <option value="Container Home">Container Home</option>
+                            <option value="Duplex">Duplex</option>
+                            <option value="Single-family home">Single Family Home</option>
+                            <option value="#R%$G&867">Other</option>
+                        </select>
+                    </td>
+                    <td class="tableElement">
+                        <select id="furnishing" class="dropdown">
+                            <option selected disabled hidden value="null">Type of Furnishing</option>
+                            <option value="0">Unfurnished</option>
+                            <option value="1">Semi-furnished</option>
+                            <option value="2">Furnished</option>
+                        </select>
+                    </td>
+                    <td class="tableElement">
+                        <select id="frequencyOfPowercuts" class="dropdown">
+                            <option selected disabled hidden value="null">Powercuts per week</option>
+                            <option value="0.0">0</option>
+                            <option value="1.0">1</option>
+                            <option value="2.0">2</option>
+                            <option value="3.0">More than 2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tableElement">
+                        <select id="powerBackup" class="dropdown">
+                            <option selected disabled hidden value="null">Power Backup Facility</option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>|
+                        </select>
+                    </td>
+                    <td class="tableElement">
+                        <select id="waterSupply" class="dropdown">
+                            <option selected disabled hidden value="null">Water Supply Facility</option>
+                            <option value="All time">All Time</option>
+                            <option value="Once in a day - Morning">Once in a day-Morning</option>
+                            <option value="Once in a day - Evening">Once in a day-Evening</option>
+                            <option value="Once in two days">Once in a two days</option>
+                            <option value="NOT MENTIONED">No regular supply</option>|
+                        </select>
+                    </td>
+                    <td class="tableElement">
+                        <select id="crimeRate" class="dropdown">
+                            <option selected disabled hidden value="null">Crime Rate</option>
+                            <option value="0">Well below average</option>
+                            <option value="1">Slightly below arerage</option>
+                            <option value="2">Slightly above average</option>
+                            <option value="3">Well above average</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tableElement"></td>
+                    <td class="tableElement">
+                        <select id="dustAndNoise" class="dropdown" >
+                            <option selected disabled hidden value="null">Dust and Noise</option>
+                            <option value="0">Low</option>
+                            <option value="1">Medium</option>
+                            <option value="2">High</option>
+                        </select>
+                    </td>
+                    <td class="tableElement"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="submitSection">
+            <button class="submitButton" onclick="getHabitabilityScore()">Predict Result</button>
+        </div>
+    </div>
+</body>
+</html>

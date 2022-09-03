@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainSection{
+    margin-left: 20%;
+    width: 60%;
+    background-color: rgb(224, 229, 133);
+    height: 100vh;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.header{
+    float: left;
+    width: 80%;
+    height: 180px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.logo{
+    width: 200px;
+    height: 150px;
+    float: left;
+    border: 3px solid black;
+}
+
+.banner{
+    float: right;
+    width: 500px;
+    height: 130px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+.resultBox{
+    float: left;
+    height: 60px;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.result{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 6px;
+    margin-left: 130px;
+}
+
+.notification{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25%;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    color: red;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tableInput{
+    width: 86%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 4%;
+    float: left;
+}
+
+.tableSection{
+    width: 80%;
+    height: 190px;
+    margin-top: 30px;
+    margin-left: 10%;
+    float: left;
+}
+
+.tableElement{
+    width: 250px;
+    height: 60px;
+}
+
+.label{
+    margin-left: 20px;
+    font-size: 18px;
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputSection{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.dropdown{
+    width: 200px;
+    margin-left: 20px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(208, 192, 48);
+    border-radius: 4px;
+    text-align: center;
+}
+
+option{
+    background-color: white;
+}
+
+.submitSection{
+    float: left;
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+}
+
+.submitButton{
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
