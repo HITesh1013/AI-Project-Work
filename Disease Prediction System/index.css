@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mainSection {
+    height: 100vh;
+    width: 60%;
+    margin-left:20% ;
+    margin-right:20% ;
+    background-color: rgb(201, 188, 144);
+    padding: 0ch;
+    border-left: 5px solid rgb(98, 100, 22);
+    border-right: 5px solid rgb(98, 100, 22);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.banner{
+    align-items: center;
+    border: 5px solid rgb(98, 100, 22);
+    margin-left: 10%;
+    margin-right: auto;
+    width: 80%;
+    height: 150px;
+}
+
+.dropDownHeading{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.dropDownTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dropDown{
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 6px solid black;
+}
+#selectSymptoms {
+    background-color: rgb(98, 100, 22);
+    height: 35px;
+    width: 300px;
+    font-weight: bold;
+    margin: 3px;
+    font-size: 15px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+}
+option {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 231, 225);
+   
+}
+.addClearDiv{
+    margin-top: 18px;
+    height: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.addClearButton{
+    background-color: rgb(98, 100, 22);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    width: 140px;
+    border-radius: 6px;
+}
+#clearButton{
+    margin-left: 84px;
+}
+.warning{
+    margin-top: 12px;
+    height: 20px;
+    text-align: center;
+    color: red;
+    font-weight: 14px;
+}
+.crossButton{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+.symptomsCount{
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.allSymptom{
+    height: 200px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.tableElement{
+    height: 35px;
+    width: 240px;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.tableValue{
+    height: 30px;
+    width: 200px;
+    margin-top: 3px;
+    margin-left: 5px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.tableButton{
+    float: right;
+    margin-right: 3px;
+    margin-top: 2px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
+
+.crossButton{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+
+}
+.buttonIcon{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    cursor: pointer
+}
+
+.submitSection {
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 20%;
+    height: 50px;
+  }
+  
+.resultBox, .submitButton {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.submitButton{
+    background-color: rgb(98, 100, 22);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+
+.resultBox{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 250px;
+    line-height: 40px;
+    margin-left: 10%;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}
